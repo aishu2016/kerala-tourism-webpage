@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid login">
+    <div class="box">
+      <h2>Login</h2>
+      <form action="index.html" onsubmit="return validate()">
+
+        <div class="form-group">
+          <label for="email">Email * </label><br>
+          <input type="email" style="background-color: transparent; border: none; border-bottom: 4px solid;
+           class="form-control" id="email" placeholder="Email" name="email">
+        </div>
+
+        <div class="form-group">
+          <label for="pwd">Password * </label><br>
+          <input type="password" style="background-color: transparent; border : none; border-bottom: 4px solid; 
+           class="form-control" id="pwd" placeholder="Password" name="pwd">
+        </div>
+
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me </label>
+        </div>
+
+        <button id="submits" class="btn btn-lg  btn-block">Login</button><br>
+        <p id="num"></p>
+        <a href="index.html" target="_blank"></a>
+        <a href="Login.html" target="_blank"> </a>
+        <a id="create" href="SignUp.html" target="_blank">Create New Account</a>
+
+      </form>
+      <script src="login.js"></script>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

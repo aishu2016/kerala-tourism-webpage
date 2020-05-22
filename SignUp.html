@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid sign">
+    <div class="signup">
+      <h2>Signup </h2>
+      <form action="Login.html" onsubmit="return validation()">
+
+        <div class="form-group">
+          <label for="name">First Name * </label> <br>
+          <input type="text" style="background-color: transparent; border: none; border-bottom: 4px solid; class="
+            form-control" name="firstname" id="firstname" placeholder="Enter First Name">
+        </div>
+
+        <div class="form-group">
+          <label for="name">Last Name * </label> <br>
+          <input type="text" style="background-color: transparent; border: none; border-bottom: 4px solid ; 
+          class= form-control" name="lastname" id="lastname" placeholder="Enter Last Name">
+        </div>
+
+        <div class="form-group">
+          <label for="mobile number">Mobile Number * </label><br>
+          <select id="ph">
+            <option>+91</option>
+            <option>+95</option>
+            <option>+92</option>
+            <option>+93</option>
+          </select>
+          <input type="number" style="background-color: transparent; border: none; border-bottom: 4px solid; name="
+            number" id="number" placeholder="Enter Mobile Number ">
+          <span id="message3" style="color: red;"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email *</label><br>
+          <input type="email" style="background-color: transparent; border: none; border-bottom: 4px solid; name="
+            email" id="email" placeholder="Enter Email">
+        </div>
+
+        <div class="form-group">
+          <label for="pwd">Password *</label><br>
+          <input type="password" style="background-color: transparent; border: none; border-bottom: 4px solid; name="
+            pwd" id="pwd" placeholder="Enter Your Password ">
+        </div>
+
+        <div class="form-group">
+          <label for="pawd">Confirm Password *</label><br>
+          <input type="password" style="background-color: transparent; border: none; border-bottom: 4px solid; name="
+            pawd" id="pawd" placeholder=" Re Enter Your Password ">
+        </div>
+
+        <div class="form-group">
+          <label><input type="radio" name="male" id="male"><span id="male" &nbsp; male>Male</span>&nbsp;&nbsp;</label>
+          <label><input type="radio" name="male" id="female"><span id="male" &nbsp;
+              male>Female</span>&nbsp;&nbsp;</label>
+        </div>
+        <!-- <input type="submit" id="sub" placeholder="SIGN UP" value="SIGN UP"> -->
+        <button id="submit" class="btn btn-lg  btn-block">SIGN UP</button>
+        <a href="SignUp.html" target="_blank"></a>
+
+      </form>
+      <script src="SignUp.js"></script>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
